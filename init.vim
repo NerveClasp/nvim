@@ -23,7 +23,14 @@ else
 
   " Themes
   source $HOME/.config/nvim/themes/syntax.vim
+<<<<<<< HEAD
   source $HOME/.config/nvim/themes/nvcode.vim
+=======
+  " source $HOME/.config/nvim/themes/one-monokai.vim
+  "source $HOME/.config/nvim/themes/nvcode.vim
+  source $HOME/.config/nvim/themes/gruvbox.vim
+  source $HOME/.config/nvim/themes/airline.vim
+>>>>>>> db09965... before I break stuff
 
   " Plugin Configuration
   source $HOME/.config/nvim/keys/which-key.vim
@@ -70,4 +77,10 @@ endif
 " Better nav for omnicomplete TODO figure out why this is being overridden
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
+<<<<<<< HEAD
 
+=======
+" set completeopt=menuone,noinsert,noselect
+" let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy']
+" lua require'nvim_lsp'.tsserver.setup{ on_attach=require'completion'.on_attach }
+>>>>>>> db09965... before I break stuff

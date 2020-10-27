@@ -23,12 +23,21 @@
     "css",
     "markdown",
     "javascript",
+    "javascript-react",
+    "javascriptreact",
     "graphql",
     "html",
     "yaml",
     "json",
     "python",
-    "java"
+    "typescript",
+    "typescript-react",
+    "typescriptreact",
+    "ts",
+    "ts-react",
+    ".tsx",
+    ".jsx",
+    ".svelte"
   ],
   "coc.preferences.hoverTarget": "float",
 
@@ -38,7 +47,8 @@
   // emmet
   "emmet.includeLanguages": {
     "vue-html": "html",
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
   },
 
   // explorer

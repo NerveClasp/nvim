@@ -18,7 +18,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-repeat'
     " Text Navigation
     Plug 'unblevable/quick-scope'
-    " Useful for React Commenting 
+    " Useful for React Commenting
     Plug 'suy/vim-context-commentstring'
     " highlight all matches under cursor
     " Plug 'RRethy/vim-illuminate'
@@ -52,7 +52,18 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Closetags
     Plug 'alvan/vim-closetag'
     " Themes
+<<<<<<< HEAD
     Plug 'christianchiarulli/nvcode-color-schemes.vim'
+=======
+    Plug 'christianchiarulli/nvcode.vim'
+    Plug 'morhetz/gruvbox'
+    Plug 'sainnhe/gruvbox-material'
+    Plug 'phanviet/vim-monokai-pro'
+    Plug 'fratajczak/one-monokai-vim'
+
+    " Plug 'ChristianChiarulli/nv-code'
+    " Plug 'kyazdani42/blue-moon'
+>>>>>>> db09965... before I break stuff
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Status Line
@@ -120,10 +131,29 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " TODO add this back in change from C-n
     " Plug 'mg979/vim-visual-multi', {'branch': 'master'}
     " Plug 'yuezk/vim-js'
-    " Plug 'maxmellon/vim-jsx-pretty'
-    " Plug 'jelera/vim-javascript-syntax'
-    " Plugin Graveyard
+    Plug 'maxmellon/vim-jsx-pretty'
+    Plug 'jelera/vim-javascript-syntax'
 
+    " Languages and file types.
+    Plug 'cakebaker/scss-syntax.vim'
+    Plug 'chrisbra/csv.vim'
+    Plug 'ekalinin/dockerfile.vim'
+    Plug 'elixir-editors/vim-elixir'
+    Plug 'Glench/Vim-Jinja2-Syntax'
+    Plug 'godlygeek/tabular' | Plug 'tpope/vim-markdown'
+    Plug 'jvirtanen/vim-hcl'
+    Plug 'lifepillar/pgsql.vim'
+    Plug 'othree/html5.vim'
+    Plug 'pangloss/vim-javascript'
+    Plug 'stephpy/vim-yaml'
+    Plug 'tmux-plugins/vim-tmux'
+    Plug 'tpope/vim-git'
+    Plug 'tpope/vim-liquid'
+    Plug 'wgwoods/vim-systemd-syntax'
+
+Plug 'leafOfTree/vim-svelte-plugin'
+
+<<<<<<< HEAD
     " Debug
     " Plug 'mfussenegger/nvim-dap'
     " Plug 'nvim-dap-virtual-text'
@@ -135,11 +165,21 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Minimap
     " Plug 'wfxr/minimap.vim'
     " jsx syntax support
+=======
+Plug 'neovim/nvim-lspconfig'
+    " ThePrimeagen VimBeGood
+Plug 'nvim-lua/completion-nvim'
+    Plug 'ThePrimeagen/vim-be-good'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'nvim-lua/telescope.nvim'    " Plugin Graveyard
+>>>>>>> db09965... before I break stuff
     " Typescript syntax
     " Plug 'HerringtonDarkholme/yats.vim'
     " Multiple Cursors
     " Plug 'terryma/vim-multiple-cursors'
-    " Plug 'kaicataldo/material.vim'
+    Plug 'kaicataldo/material.vim'
     " Plug 'NLKNguyen/papercolor-theme'
     " Plug 'tomasiser/vim-code-dark'
     " Plug 'mg979/vim-xtabline'

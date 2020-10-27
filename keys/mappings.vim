@@ -20,7 +20,7 @@ if exists('g:vscode')
   nmap <S-Tab> :Tabprev<CR>
 
 else
-
+  nnoremap <C-p> :Files<CR>
   " Better nav for omnicomplete
   inoremap <expr> <c-j> ("\<C-n>")
   inoremap <expr> <c-k> ("\<C-p>")
