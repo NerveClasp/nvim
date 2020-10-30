@@ -28,12 +28,12 @@ let g:airline_left_sep = ''
 let g:airline_right_sep = ''
 let g:airline_right_alt_sep = ''
 
-let g:airline#extensions#tabline#formatter = 'unique_tail'
+let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 
 let g:airline#extensions#default#layout = [['a', 'b', 'c'], ['x', 'z', 'warning', 'error']]
 " let g:airline_skip_empty_sections = 1
 
-let g:airline_section_c = airline#section#create([''])
+" let g:airline_section_c = airline#section#create([''])
 " let g:airline_section_z = airline#section#create(['linenr'])
 
 " Switch to your current theme
