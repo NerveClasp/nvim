@@ -43,6 +43,12 @@
 
   // snippets
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
+  "snippets.extends": {
+    "javascriptreact": ["javascript"],
+    "typescript": ["javascript"],
+    "typescriptreact": ["javascript"],
+    "javascript": ["typescript"]
+  },
 
   // emmet
   "emmet.includeLanguages": {
