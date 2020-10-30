@@ -52,9 +52,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Closetags
     Plug 'alvan/vim-closetag'
     " Themes
-<<<<<<< HEAD
     Plug 'christianchiarulli/nvcode-color-schemes.vim'
-=======
     Plug 'christianchiarulli/nvcode.vim'
     Plug 'morhetz/gruvbox'
     Plug 'sainnhe/gruvbox-material'
@@ -63,7 +61,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Plug 'ChristianChiarulli/nv-code'
     " Plug 'kyazdani42/blue-moon'
->>>>>>> db09965... before I break stuff
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Status Line
@@ -153,7 +150,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 Plug 'leafOfTree/vim-svelte-plugin'
 
-<<<<<<< HEAD
     " Debug
     " Plug 'mfussenegger/nvim-dap'
     " Plug 'nvim-dap-virtual-text'
@@ -165,7 +161,6 @@ Plug 'leafOfTree/vim-svelte-plugin'
     " Minimap
     " Plug 'wfxr/minimap.vim'
     " jsx syntax support
-=======
 Plug 'neovim/nvim-lspconfig'
     " ThePrimeagen VimBeGood
 Plug 'nvim-lua/completion-nvim'
@@ -174,7 +169,12 @@ Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'nvim-lua/telescope.nvim'    " Plugin Graveyard
->>>>>>> db09965... before I break stuff
+
+" Inline git blame
+Plug 'APZelos/blamer.nvim'
+
+Plug 'nvim-lua/telescope.nvim'
+    " Plugin Graveyard
     " Typescript syntax
     " Plug 'HerringtonDarkholme/yats.vim'
     " Multiple Cursors
@@ -194,7 +194,7 @@ Plug 'nvim-lua/telescope.nvim'    " Plugin Graveyard
     " Plug 'hardcoreplayers/spaceline.vim'
     " Plug 'vim-airline/vim-airline-themes'
     " Plug 'kaicataldo/material.vim', { 'branch': 'main' }
-    " Plug 'arcticicestudio/nord-vim'
+    Plug 'arcticicestudio/nord-vim'
     " Ranger
     " Plug 'francoiscabrol/ranger.vim'
     " Plug 'rbgrouleff/bclose.vim'

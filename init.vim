@@ -23,14 +23,12 @@ else
 
   " Themes
   source $HOME/.config/nvim/themes/syntax.vim
-<<<<<<< HEAD
   source $HOME/.config/nvim/themes/nvcode.vim
-=======
   " source $HOME/.config/nvim/themes/one-monokai.vim
   "source $HOME/.config/nvim/themes/nvcode.vim
-  source $HOME/.config/nvim/themes/gruvbox.vim
+  source $HOME/.config/nvim/themes/nord.vim
+  " source $HOME/.config/nvim/themes/gruvbox.vim
   source $HOME/.config/nvim/themes/airline.vim
->>>>>>> db09965... before I break stuff
 
   " Plugin Configuration
   source $HOME/.config/nvim/keys/which-key.vim
@@ -38,6 +36,8 @@ else
   source $HOME/.config/nvim/plug-config/rnvimr.vim
   source $HOME/.config/nvim/plug-config/better-whitespace.vim
   source $HOME/.config/nvim/plug-config/fzf.vim
+  source $HOME/.config/nvim/plug-config/sneak.vim
+  source $HOME/.config/nvim/plug-config/blamer.vim
   source $HOME/.config/nvim/plug-config/codi.vim
   source $HOME/.config/nvim/plug-config/vim-wiki.vim
   luafile $HOME/.config/nvim/lua/galaxy-line.lua
@@ -77,10 +77,9 @@ endif
 " Better nav for omnicomplete TODO figure out why this is being overridden
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
-<<<<<<< HEAD
-
-=======
 " set completeopt=menuone,noinsert,noselect
 " let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy']
 " lua require'nvim_lsp'.tsserver.setup{ on_attach=require'completion'.on_attach }
->>>>>>> db09965... before I break stuff
+" make Ukrainian keyboard layout work
+:set langmap=йq,цw,уe,кr,еt,нy,гu,шi,щo,зp,х[,ї],фa,іs,вd,аf,пg,рh,оj,лk,дl,ж\\;,є',ґ\\,яz,чx,сc,мv,иb,тn,ьm,ю.,./,ЙQ,ЦW,УE,КR,ЕT,НY,НY,ГU,ШI,ЩO,ЗP,Х{,Ї},ФA,ІS,ВD,АF,ПG,РH,ОJ,ЛK,ДL,Ж\\:,Є\\",Ґ<bar>,ЯZ,ЧX,СC,МV,ИB,ТN,ЬM,Б\\<,Ю>,№#
+
