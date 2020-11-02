@@ -241,10 +241,11 @@ let g:which_key_map.l = {
       \ }
       " \ 'o' : ['<Plug>(coc-openlink)'                , 'open link'],
 
+      " \ ';' : [':FloatermNew --wintype=normal --height=6'        , 'terminal'],
 " t is for terminal
 let g:which_key_map.t = {
       \ 'name' : '+terminal' ,
-      \ ';' : [':FloatermNew --wintype=normal --height=6'        , 'terminal'],
+      \ ';' : [':FloatermNew --wintype=normal --position=right --width=42'        , 'terminal'],
       \ 'f' : [':FloatermNew fzf'                               , 'fzf'],
       \ 'g' : [':FloatermNew lazygit'                           , 'git'],
       \ 'd' : [':FloatermNew lazydocker'                        , 'docker'],

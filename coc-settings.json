@@ -8,6 +8,7 @@
     "module": "擄"
   },
 
+  "diagnostic.enable": true,
   // diagnostics
   "diagnostic.errorSign": " ",
   "diagnostic.warningSign": " ",
@@ -40,7 +41,7 @@
     ".svelte"
   ],
   "coc.preferences.hoverTarget": "float",
-
+  "prettier.eslintIntegration": true,
   // snippets
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
   "snippets.extends": {
@@ -62,11 +63,15 @@
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
   "explorer.icon.enableVimDevicons": false,
+  "explorer.file.showHiddenFiles": true,
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   },
 
   //coc-emoji
-  "coc.source.emoji.filetypes": ["markdown"]
+  "coc.source.emoji.filetypes": ["markdown"],
+
+  "svelte.language-server.port": 5050,
+  "svelte.plugin.typescript.enable": true
 }

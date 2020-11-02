@@ -42,8 +42,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " Treesitter
-    Plug 'nvim-treesitter/nvim-treesitter'
-    Plug 'nvim-treesitter/playground'
+    " Plug 'nvim-treesitter/nvim-treesitter'
+    " Plug 'nvim-treesitter/playground'
     " Cool Icons
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'ryanoasis/vim-devicons'
@@ -150,6 +150,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 Plug 'leafOfTree/vim-svelte-plugin'
 
+
+" Svelte
+Plug 'pangloss/vim-javascript'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'w0rp/ale'
+Plug 'burner/vim-svelte'
+Plug 'leafOfTree/vim-svelte-plugin'
     " Debug
     " Plug 'mfussenegger/nvim-dap'
     " Plug 'nvim-dap-virtual-text'
@@ -172,6 +179,13 @@ Plug 'nvim-lua/telescope.nvim'    " Plugin Graveyard
 
 " Inline git blame
 Plug 'APZelos/blamer.nvim'
+
+"golang
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
+" FERN
+" Plug 'antoinemadec/FixCursorHold.nvim'
+" Plug 'lambdalisue/fern.vim'
 
 Plug 'nvim-lua/telescope.nvim'
     " Plugin Graveyard
@@ -197,6 +211,7 @@ Plug 'nvim-lua/telescope.nvim'
     Plug 'arcticicestudio/nord-vim'
     " Ranger
     Plug 'francoiscabrol/ranger.vim'
+Plug 'preservim/nerdtree'
     " Plug 'rbgrouleff/bclose.vim'
     " Making stuff
     " Plug 'neomake/neomake'
