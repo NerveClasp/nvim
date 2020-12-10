@@ -84,15 +84,15 @@ inoremap <expr> <c-k> ("\<C-p>")
 set completeopt=menuone,noinsert,noselect
 let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy']
 lua require'nvim_lsp'.tsserver.setup{ on_attach=require'completion'.on_attach }
-augroup LspEFM
-  au!
-  autocmd User lsp_setup call lsp#register_server({
-      \ 'name': 'efm-langserver',
-      \ 'cmd': {server_info->['efm-langserver', '-c=~/.config/nvim/efm/config.yaml']},
-      \ 'whitelist': ['vim', 'eruby', 'markdown', 'yaml'],
-      \ })
-augroup END
-lua require'nvim_lsp'.efm.setup{}
+" augroup LspEFM
+"   au!
+"   autocmd User lsp_setup call lsp#register_server({
+"       \ 'name': 'efm-langserver',
+"       \ 'cmd': {server_info->['efm-langserver', '-c=~/.config/nvim/efm/config.yaml']},
+"       \ 'whitelist': ['vim', 'eruby', 'markdown', 'yaml'],
+"       \ })
+" augroup END
+" lua require'nvim_lsp'.efm.setup{}
 " make Ukrainian keyboard layout work
-:set langmap=йq,цw,уe,кr,еt,нy,гu,шi,щo,зp,х[,ї],фa,іs,вd,аf,пg,рh,оj,лk,дl,ж\\;,є',ґ\\,яz,чx,сc,мv,иb,тn,ьm,ю.,./,ЙQ,ЦW,УE,КR,ЕT,НY,НY,ГU,ШI,ЩO,ЗP,Х{,Ї},ФA,ІS,ВD,АF,ПG,РH,ОJ,ЛK,ДL,Ж\\:,Є\\",Ґ<bar>,ЯZ,ЧX,СC,МV,ИB,ТN,ЬM,Б\\<,Ю>,№#
+" :set langmap=йq,цw,уe,кr,еt,нy,гu,шi,щo,зp,х[,ї],фa,іs,вd,аf,пg,рh,оj,лk,дl,ж\\;,є',ґ\\,яz,чx,сc,мv,иb,тn,ьm,ю.,./,ЙQ,ЦW,УE,КR,ЕT,НY,НY,ГU,ШI,ЩO,ЗP,Х{,Ї},ФA,ІS,ВD,АF,ПG,РH,ОJ,ЛK,ДL,Ж\\:,Є\\",Ґ<bar>,ЯZ,ЧX,СC,МV,ИB,ТN,ЬM,Б\\<,Ю>,№#
 

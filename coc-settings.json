@@ -8,7 +8,8 @@
     "module": "擄"
   },
 
-  "diagnostic.enable": true,
+  //"diagnostic.enable": true,
+  "diagnostic.enable": false,
   // diagnostics
   "diagnostic.errorSign": " ",
   "diagnostic.warningSign": " ",
