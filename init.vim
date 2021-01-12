@@ -81,9 +81,9 @@ inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
 
 " LSP
-set completeopt=menuone,noinsert,noselect
-let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy']
-lua require'nvim_lsp'.tsserver.setup{ on_attach=require'completion'.on_attach }
+" set completeopt=menuone,noinsert,noselect
+" let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy']
+" lua require'nvim_lsp'.tsserver.setup{ on_attach=require'completion'.on_attach }
 " augroup LspEFM
 "   au!
 "   autocmd User lsp_setup call lsp#register_server({

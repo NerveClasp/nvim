@@ -52,8 +52,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Closetags
     Plug 'alvan/vim-closetag'
     " Themes
-    Plug 'christianchiarulli/nvcode-color-schemes.vim'
-    Plug 'christianchiarulli/nvcode.vim'
+    " Plug 'christianchiarulli/nvcode-color-schemes.vim'
+    " Plug 'christianchiarulli/nvcode.vim'
     Plug 'morhetz/gruvbox'
     Plug 'sainnhe/gruvbox-material'
     Plug 'phanviet/vim-monokai-pro'
@@ -168,7 +168,7 @@ Plug 'leafOfTree/vim-svelte-plugin'
     " Minimap
     " Plug 'wfxr/minimap.vim'
     " jsx syntax support
-Plug 'neovim/nvim-lspconfig'
+"Plug 'neovim/nvim-lspconfig'
     " ThePrimeagen VimBeGood
 Plug 'nvim-lua/completion-nvim'
     Plug 'ThePrimeagen/vim-be-good'
