@@ -51,6 +51,7 @@
     "typescriptreact": ["javascript"],
     "javascript": ["typescript"]
   },
+  "snippets.ultisnips.usePythonx": false,
 
   // emmet
   "emmet.includeLanguages": {

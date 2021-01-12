@@ -62,7 +62,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'ChristianChiarulli/nv-code'
     " Plug 'kyazdani42/blue-moon'
     " Intellisense
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'neoclide/coc.nvim', { 'do': 'yarn install --frozen-lockfile'}
     " Status Line
     Plug 'glepnir/galaxyline.nvim'
     " Plug 'vim-airline/vim-airline'
